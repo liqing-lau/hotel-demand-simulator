@@ -223,6 +223,53 @@ Run the test suite:
 python -m unittest test_simulator -v
 ```
 
+## Day-based simulation
+1. GET API should accept a particular supplier-scenario ID - respond with current status of supplier-scenario
+  a. no such supplier-scenario exists
+  b. supplier-scenario exists, with the next expected shopping day
+2. POST API should accept a particular supplier-scenario ID and a request input of the next shopping day's prices
+
+
+The prices input should be in the following format:
+the "prices" object is a dictionary of
+day numbers: hotel prices/availabilities
+
+Note that there is also a "travel_platform", which represents the price/availability that the travel platform itself is offering. 
+
+```json
+{
+  "prices": {
+    "0": {
+      "hotel_a": {
+        "price": 100,
+        "capacity": 50
+      },
+      "hotel_b": {
+        "price": 90,
+        "capacity": 20
+      },
+      "travel_platform": {
+        "price": 85,
+        "capacity": 30
+      }
+    },
+    "1": {
+      "hotel_a": {
+        "price": 100,
+        "capacity": 50
+      },
+      "hotel_b": {
+        "price": 90,
+        "capacity": 20
+      },
+      "travel_platform": {
+        "price": 85,
+        "capacity": 30
+      }
+    }
+  }
+}
+```
 
 ## Web UI Features
 
