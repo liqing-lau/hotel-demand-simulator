@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Demand Simulator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .controls {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        input[type="number"],
+        input[type="range"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        
+        button {
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #764ba2;
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .simulations {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .simulation-item {
+            border: 1px solid #eee;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        
+        .simulation-item:hover {
+            background: #f9f9f9;
+        }
+        
+        .simulation-info h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .simulation-info p {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .simulation-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn-small {
+            padding: 8px 15px;
+            font-size: 14px;
+            background: #667eea;
+        }
+        
+        .btn-small:hover {
+            background: #764ba2;
+        }
+        
+        .btn-delete {
+            background: #e74c3c;
+        }
+        
+        .btn-delete:hover {
+            background: #c0392b;
+        }
+        
+        .message {
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+        
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            display: block;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .modal-header {
+            margin-bottom: 20px;
+        }
+        
+        .modal-header h2 {
+            color: #333;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #000;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .stat-item {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        
+        .stat-value {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hotel Demand Simulator</h1>
+            <p class="subtitle">Generate and manage hotel booking demand simulations</p>
+        </header>
+        
+        <div class="controls">
+            <h2>Generate New Simulation</h2>
+            <div id="message" class="message"></div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="totalUsers">Total Users</label>
+                    <input type="number" id="totalUsers" value="100" min="1" max="10000">
+                </div>
+                <div class="form-group">
+                    <label for="proportionCasual">Casual Travellers (%)</label>
+                    <input type="range" id="proportionCasual" value="80" min="0" max="100">
+                    <span id="proportionValue">80%</span>
+                </div>
+                <div class="form-group">
+                    <label for="hotelCapacity">Hotel Capacity (rooms/day)</label>
+                    <input type="number" id="hotelCapacity" value="50" min="1" max="1000">
+                </div>
+            </div>
+            
+            <button onclick="generateSimulation()">Generate Simulation</button>
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Generating simulation...</p>
+            </div>
+        </div>
+        
+        <div class="simulations">
+            <h2>Existing Simulations</h2>
+            <div id="simulationsList"></div>
+        </div>
+    </div>
+    
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2>Simulation Details</h2>
+            </div>
+            <div id="detailsContent"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Update proportion display
+        document.getElementById('proportionCasual').addEventListener('input', function() {
+            document.getElementById('proportionValue').textContent = this.value + '%';
+        });
+        
+        function showMessage(message, type) {
+            const msgEl = document.getElementById('message');
+            msgEl.textContent = message;
+            msgEl.className = 'message ' + type;
+            setTimeout(() => {
+                msgEl.className = 'message';
+            }, 5000);
+        }
+        
+        function generateSimulation() {
+            const totalUsers = parseInt(document.getElementById('totalUsers').value);
+            const proportionCasual = parseInt(document.getElementById('proportionCasual').value) / 100;
+            const hotelCapacity = parseInt(document.getElementById('hotelCapacity').value);
+            
+            document.getElementById('loading').style.display = 'block';
+            
+            fetch('/api/generate', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    total_users: totalUsers,
+                    proportion_casual: proportionCasual,
+                    hotel_capacity: hotelCapacity
+                })
+            })
+            .then(r => r.json())
+            .then(data => {
+                document.getElementById('loading').style.display = 'none';
+                if (data.success) {
+                    showMessage('✓ ' + data.message, 'success');
+                    loadSimulations();
+                } else {
+                    showMessage('✗ Error: ' + data.error, 'error');
+                }
+            })
+            .catch(e => {
+                document.getElementById('loading').style.display = 'none';
+                showMessage('✗ Error: ' + e.message, 'error');
+            });
+        }
+        
+        function loadSimulations() {
+            location.reload();
+        }
+        
+        function viewDetails(filename) {
+            fetch(`/api/simulation/${filename}/details`)
+                .then(r => r.json())
+                .then(data => {
+                    if (data.success) {
+                        const stats = data.stats;
+                        const params = data.parameters;
+                        const html = `
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <div class="stat-label">Casual Users</div>
+                                    <div class="stat-value">${stats.casual_users}</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-label">Business Users</div>
+                                    <div class="stat-value">${stats.business_users}</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-label">Total Demands</div>
+                                    <div class="stat-value">${stats.total_demands}</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-label">Hotel Capacity</div>
+                                    <div class="stat-value">${params.hotel_capacity_per_day}</div>
+                                </div>
+                            </div>
+                        `;
+                        document.getElementById('detailsContent').innerHTML = html;
+                        document.getElementById('detailsModal').style.display = 'block';
+                    }
+                });
+        }
+        
+        function closeModal() {
+            document.getElementById('detailsModal').style.display = 'none';
+        }
+        
+        function downloadSimulation(filename) {
+            window.location.href = `/api/simulation/${filename}/download`;
+        }
+        
+        function deleteSimulation(filename) {
+            if (confirm('Are you sure you want to delete this simulation?')) {
+                fetch(`/api/simulation/${filename}/delete`, {method: 'DELETE'})
+                    .then(r => r.json())
+                    .then(data => {
+                        if (data.success) {
+                            showMessage('✓ Simulation deleted', 'success');
+                            loadSimulations();
+                        }
+                    });
+            }
+        }
+        
+        // Load simulations on page load
+        window.addEventListener('load', function() {
+            const simList = document.getElementById('simulationsList');
+            const simulations = {{ simulations | tojson }};
+            
+            if (simulations.length === 0) {
+                simList.innerHTML = '<div class="empty-state">No simulations yet. Generate one to get started!</div>';
+            } else {
+                simList.innerHTML = simulations.map(sim => `
+                    <div class="simulation-item">
+                        <div class="simulation-info">
+                            <h3>${sim.name}</h3>
+                            <p>Modified: ${sim.modified} | Size: ${(sim.size / 1024).toFixed(2)} KB</p>
+                        </div>
+                        <div class="simulation-actions">
+                            <button class="btn-small" onclick="viewDetails('${sim.name}')">View Details</button>
+                            <button class="btn-small" onclick="downloadSimulation('${sim.name}')">Download</button>
+                            <button class="btn-small btn-delete" onclick="deleteSimulation('${sim.name}')">Delete</button>
+                        </div>
+                    </div>
+                `).join('');
+            }
+        });
+        
+        window.onclick = function(event) {
+            const modal = document.getElementById('detailsModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+

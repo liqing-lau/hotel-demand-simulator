@@ -1,0 +1,2443 @@
+{
+  "simulation_parameters": {
+    "total_users": 10,
+    "proportion_casual": 0.8,
+    "hotel_capacity_per_day": 3
+  },
+  "users": {
+    "casual-001": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": -26,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 111.15555955841539
+          },
+          {
+            "shopping_date": -25,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 111.83317321445284
+          },
+          {
+            "shopping_date": -24,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 112.51078687049029
+          },
+          {
+            "shopping_date": -23,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 113.18840052652774
+          },
+          {
+            "shopping_date": -22,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 113.86601418256521
+          },
+          {
+            "shopping_date": -21,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 114.54362783860266
+          },
+          {
+            "shopping_date": -20,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 115.22124149464011
+          },
+          {
+            "shopping_date": -19,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 115.89885515067756
+          },
+          {
+            "shopping_date": -18,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 116.57646880671501
+          },
+          {
+            "shopping_date": -17,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 117.25408246275246
+          },
+          {
+            "shopping_date": -16,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 117.93169611878993
+          },
+          {
+            "shopping_date": -15,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 118.60930977482738
+          },
+          {
+            "shopping_date": -14,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 119.28692343086483
+          },
+          {
+            "shopping_date": -13,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 119.96453708690228
+          },
+          {
+            "shopping_date": -12,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 120.64215074293973
+          },
+          {
+            "shopping_date": -11,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 121.31976439897718
+          },
+          {
+            "shopping_date": -10,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 121.99737805501465
+          },
+          {
+            "shopping_date": -9,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 122.6749917110521
+          },
+          {
+            "shopping_date": -8,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 123.35260536708955
+          },
+          {
+            "shopping_date": -7,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 124.030219023127
+          },
+          {
+            "shopping_date": -6,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 124.70783267916445
+          },
+          {
+            "shopping_date": -5,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 125.3854463352019
+          },
+          {
+            "shopping_date": -4,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 126.06305999123936
+          },
+          {
+            "shopping_date": -3,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 126.74067364727682
+          },
+          {
+            "shopping_date": -2,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 127.41828730331427
+          },
+          {
+            "shopping_date": -1,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 128.09590095935172
+          },
+          {
+            "shopping_date": 0,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 128.77351461538916
+          },
+          {
+            "shopping_date": 1,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 129.45112827142663
+          },
+          {
+            "shopping_date": 2,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 130.1287419274641
+          },
+          {
+            "shopping_date": 3,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 130.80635558350153
+          },
+          {
+            "shopping_date": 4,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 131.483969239539
+          },
+          {
+            "shopping_date": 5,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 132.16158289557643
+          },
+          {
+            "shopping_date": 6,
+            "stay_start_date": 16,
+            "stay_end_date": 25,
+            "max_price_per_night": 132.8391965516139
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 24,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 100.86865473299382
+          },
+          {
+            "shopping_date": 25,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 101.50101005138191
+          },
+          {
+            "shopping_date": 26,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 102.13336536976999
+          },
+          {
+            "shopping_date": 27,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 102.76572068815808
+          },
+          {
+            "shopping_date": 28,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 103.39807600654618
+          },
+          {
+            "shopping_date": 29,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 104.03043132493426
+          },
+          {
+            "shopping_date": 30,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 104.66278664332235
+          },
+          {
+            "shopping_date": 31,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 105.29514196171044
+          },
+          {
+            "shopping_date": 32,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 105.92749728009854
+          },
+          {
+            "shopping_date": 33,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 106.55985259848661
+          },
+          {
+            "shopping_date": 34,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 107.19220791687471
+          },
+          {
+            "shopping_date": 35,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 107.8245632352628
+          },
+          {
+            "shopping_date": 36,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 108.45691855365088
+          },
+          {
+            "shopping_date": 37,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 109.08927387203897
+          },
+          {
+            "shopping_date": 38,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 109.72162919042707
+          },
+          {
+            "shopping_date": 39,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 110.35398450881516
+          },
+          {
+            "shopping_date": 40,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 110.98633982720324
+          },
+          {
+            "shopping_date": 41,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 111.61869514559133
+          },
+          {
+            "shopping_date": 42,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 112.25105046397942
+          },
+          {
+            "shopping_date": 43,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 112.8834057823675
+          },
+          {
+            "shopping_date": 44,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 113.5157611007556
+          },
+          {
+            "shopping_date": 45,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 114.14811641914369
+          },
+          {
+            "shopping_date": 46,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 114.78047173753177
+          },
+          {
+            "shopping_date": 47,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 115.41282705591986
+          },
+          {
+            "shopping_date": 48,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 116.04518237430796
+          },
+          {
+            "shopping_date": 49,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 116.67753769269603
+          },
+          {
+            "shopping_date": 50,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 117.30989301108413
+          },
+          {
+            "shopping_date": 51,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 117.94224832947222
+          },
+          {
+            "shopping_date": 52,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 118.5746036478603
+          },
+          {
+            "shopping_date": 53,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 119.2069589662484
+          },
+          {
+            "shopping_date": 54,
+            "stay_start_date": 59,
+            "stay_end_date": 66,
+            "max_price_per_night": 119.83931428463649
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "casual-002": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": -21,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 85.78421716041584
+          },
+          {
+            "shopping_date": -20,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 87.08333505675735
+          },
+          {
+            "shopping_date": -19,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 88.38245295309885
+          },
+          {
+            "shopping_date": -18,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 89.68157084944036
+          },
+          {
+            "shopping_date": -17,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 90.98068874578186
+          },
+          {
+            "shopping_date": -16,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 92.27980664212338
+          },
+          {
+            "shopping_date": -15,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 93.57892453846488
+          },
+          {
+            "shopping_date": -14,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 94.87804243480639
+          },
+          {
+            "shopping_date": -13,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 96.17716033114789
+          },
+          {
+            "shopping_date": -12,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 97.4762782274894
+          },
+          {
+            "shopping_date": -11,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 98.7753961238309
+          },
+          {
+            "shopping_date": -10,
+            "stay_start_date": 0,
+            "stay_end_date": 4,
+            "max_price_per_night": 100.07451402017242
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 60,
+            "stay_start_date": 70,
+            "stay_end_date": 80,
+            "max_price_per_night": 96.76345025436582
+          },
+          {
+            "shopping_date": 61,
+            "stay_start_date": 70,
+            "stay_end_date": 80,
+            "max_price_per_night": 112.25823869943449
+          },
+          {
+            "shopping_date": 62,
+            "stay_start_date": 70,
+            "stay_end_date": 80,
+            "max_price_per_night": 127.75302714450316
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "casual-003": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": 16,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 77.48560153253143
+          },
+          {
+            "shopping_date": 17,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 79.4796231551843
+          },
+          {
+            "shopping_date": 18,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 81.47364477783717
+          },
+          {
+            "shopping_date": 19,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 83.46766640049003
+          },
+          {
+            "shopping_date": 20,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 85.4616880231429
+          },
+          {
+            "shopping_date": 21,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 87.45570964579576
+          },
+          {
+            "shopping_date": 22,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 89.44973126844863
+          },
+          {
+            "shopping_date": 23,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 91.4437528911015
+          },
+          {
+            "shopping_date": 24,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 93.43777451375436
+          },
+          {
+            "shopping_date": 25,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 95.43179613640723
+          },
+          {
+            "shopping_date": 26,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 97.4258177590601
+          },
+          {
+            "shopping_date": 27,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 99.41983938171296
+          },
+          {
+            "shopping_date": 28,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 101.41386100436583
+          },
+          {
+            "shopping_date": 29,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 103.4078826270187
+          },
+          {
+            "shopping_date": 30,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 105.40190424967156
+          },
+          {
+            "shopping_date": 31,
+            "stay_start_date": 39,
+            "stay_end_date": 45,
+            "max_price_per_night": 107.39592587232443
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 73,
+            "stay_start_date": 87,
+            "stay_end_date": 96,
+            "max_price_per_night": 43.89130739630649
+          },
+          {
+            "shopping_date": 74,
+            "stay_start_date": 87,
+            "stay_end_date": 96,
+            "max_price_per_night": 47.849808373124525
+          },
+          {
+            "shopping_date": 75,
+            "stay_start_date": 87,
+            "stay_end_date": 96,
+            "max_price_per_night": 51.80830934994256
+          },
+          {
+            "shopping_date": 76,
+            "stay_start_date": 87,
+            "stay_end_date": 96,
+            "max_price_per_night": 55.766810326760606
+          },
+          {
+            "shopping_date": 77,
+            "stay_start_date": 87,
+            "stay_end_date": 96,
+            "max_price_per_night": 59.72531130357864
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "casual-004": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": 19,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 58.906911697077454
+          },
+          {
+            "shopping_date": 20,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 59.67117118254622
+          },
+          {
+            "shopping_date": 21,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 60.43543066801498
+          },
+          {
+            "shopping_date": 22,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 61.19969015348374
+          },
+          {
+            "shopping_date": 23,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 61.963949638952506
+          },
+          {
+            "shopping_date": 24,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 62.72820912442127
+          },
+          {
+            "shopping_date": 25,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 63.49246860989003
+          },
+          {
+            "shopping_date": 26,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 64.2567280953588
+          },
+          {
+            "shopping_date": 27,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 65.02098758082757
+          },
+          {
+            "shopping_date": 28,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 65.78524706629632
+          },
+          {
+            "shopping_date": 29,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 66.54950655176509
+          },
+          {
+            "shopping_date": 30,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 67.31376603723385
+          },
+          {
+            "shopping_date": 31,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 68.07802552270262
+          },
+          {
+            "shopping_date": 32,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 68.84228500817139
+          },
+          {
+            "shopping_date": 33,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 69.60654449364014
+          },
+          {
+            "shopping_date": 34,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 70.37080397910891
+          },
+          {
+            "shopping_date": 35,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 71.13506346457767
+          },
+          {
+            "shopping_date": 36,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 71.89932295004644
+          },
+          {
+            "shopping_date": 37,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 72.6635824355152
+          },
+          {
+            "shopping_date": 38,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 73.42784192098397
+          },
+          {
+            "shopping_date": 39,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 74.19210140645272
+          },
+          {
+            "shopping_date": 40,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 74.95636089192149
+          },
+          {
+            "shopping_date": 41,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 75.72062037739025
+          },
+          {
+            "shopping_date": 42,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 76.48487986285902
+          },
+          {
+            "shopping_date": 43,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 77.24913934832777
+          },
+          {
+            "shopping_date": 44,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 78.01339883379654
+          },
+          {
+            "shopping_date": 45,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 78.7776583192653
+          },
+          {
+            "shopping_date": 46,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 79.54191780473407
+          },
+          {
+            "shopping_date": 47,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 80.30617729020284
+          },
+          {
+            "shopping_date": 48,
+            "stay_start_date": 58,
+            "stay_end_date": 63,
+            "max_price_per_night": 81.0704367756716
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 68,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 51.01519005739701
+          },
+          {
+            "shopping_date": 69,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 52.06047046298446
+          },
+          {
+            "shopping_date": 70,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 53.105750868571924
+          },
+          {
+            "shopping_date": 71,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 54.15103127415938
+          },
+          {
+            "shopping_date": 72,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 55.19631167974684
+          },
+          {
+            "shopping_date": 73,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 56.2415920853343
+          },
+          {
+            "shopping_date": 74,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 57.28687249092175
+          },
+          {
+            "shopping_date": 75,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 58.332152896509214
+          },
+          {
+            "shopping_date": 76,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 59.37743330209667
+          },
+          {
+            "shopping_date": 77,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 60.422713707684125
+          },
+          {
+            "shopping_date": 78,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 61.46799411327159
+          },
+          {
+            "shopping_date": 79,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 62.51327451885904
+          },
+          {
+            "shopping_date": 80,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 63.5585549244465
+          },
+          {
+            "shopping_date": 81,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 64.60383533003396
+          },
+          {
+            "shopping_date": 82,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 65.64911573562142
+          },
+          {
+            "shopping_date": 83,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 66.69439614120887
+          },
+          {
+            "shopping_date": 84,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 67.73967654679633
+          },
+          {
+            "shopping_date": 85,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 68.7849569523838
+          },
+          {
+            "shopping_date": 86,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 69.83023735797124
+          },
+          {
+            "shopping_date": 87,
+            "stay_start_date": 94,
+            "stay_end_date": 98,
+            "max_price_per_night": 70.8755177635587
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "casual-005": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": -15,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 86.55618613062808
+          },
+          {
+            "shopping_date": -14,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 87.56592347191928
+          },
+          {
+            "shopping_date": -13,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 88.57566081321049
+          },
+          {
+            "shopping_date": -12,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 89.58539815450169
+          },
+          {
+            "shopping_date": -11,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 90.59513549579289
+          },
+          {
+            "shopping_date": -10,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 91.60487283708409
+          },
+          {
+            "shopping_date": -9,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 92.6146101783753
+          },
+          {
+            "shopping_date": -8,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 93.6243475196665
+          },
+          {
+            "shopping_date": -7,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 94.6340848609577
+          },
+          {
+            "shopping_date": -6,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 95.6438222022489
+          },
+          {
+            "shopping_date": -5,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 96.65355954354011
+          },
+          {
+            "shopping_date": -4,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 97.66329688483131
+          },
+          {
+            "shopping_date": -3,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 98.67303422612251
+          },
+          {
+            "shopping_date": -2,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 99.68277156741371
+          },
+          {
+            "shopping_date": -1,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 100.69250890870492
+          },
+          {
+            "shopping_date": 0,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 101.70224624999612
+          },
+          {
+            "shopping_date": 1,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 102.71198359128732
+          },
+          {
+            "shopping_date": 2,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 103.72172093257853
+          },
+          {
+            "shopping_date": 3,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 104.73145827386973
+          },
+          {
+            "shopping_date": 4,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 105.74119561516093
+          },
+          {
+            "shopping_date": 5,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 106.75093295645215
+          },
+          {
+            "shopping_date": 6,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 107.76067029774335
+          },
+          {
+            "shopping_date": 7,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 108.77040763903454
+          },
+          {
+            "shopping_date": 8,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 109.78014498032574
+          },
+          {
+            "shopping_date": 9,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 110.78988232161694
+          },
+          {
+            "shopping_date": 10,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 111.79961966290816
+          },
+          {
+            "shopping_date": 11,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 112.80935700419936
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 61,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 60.04536617136943
+          },
+          {
+            "shopping_date": 62,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 60.6574132910256
+          },
+          {
+            "shopping_date": 63,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 61.26946041068176
+          },
+          {
+            "shopping_date": 64,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 61.88150753033793
+          },
+          {
+            "shopping_date": 65,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 62.49355464999409
+          },
+          {
+            "shopping_date": 66,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 63.10560176965026
+          },
+          {
+            "shopping_date": 67,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 63.71764888930642
+          },
+          {
+            "shopping_date": 68,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 64.32969600896259
+          },
+          {
+            "shopping_date": 69,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 64.94174312861875
+          },
+          {
+            "shopping_date": 70,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 65.55379024827492
+          },
+          {
+            "shopping_date": 71,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 66.16583736793108
+          },
+          {
+            "shopping_date": 72,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 66.77788448758724
+          },
+          {
+            "shopping_date": 73,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 67.38993160724341
+          },
+          {
+            "shopping_date": 74,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 68.00197872689958
+          },
+          {
+            "shopping_date": 75,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 68.61402584655573
+          },
+          {
+            "shopping_date": 76,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 69.2260729662119
+          },
+          {
+            "shopping_date": 77,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 69.83812008586807
+          },
+          {
+            "shopping_date": 78,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 70.45016720552424
+          },
+          {
+            "shopping_date": 79,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 71.0622143251804
+          },
+          {
+            "shopping_date": 80,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 71.67426144483656
+          },
+          {
+            "shopping_date": 81,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 72.28630856449273
+          },
+          {
+            "shopping_date": 82,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 72.8983556841489
+          },
+          {
+            "shopping_date": 83,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 73.51040280380506
+          },
+          {
+            "shopping_date": 84,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 74.12244992346123
+          },
+          {
+            "shopping_date": 85,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 74.73449704311739
+          },
+          {
+            "shopping_date": 86,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 75.34654416277355
+          },
+          {
+            "shopping_date": 87,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 75.95859128242972
+          },
+          {
+            "shopping_date": 88,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 76.57063840208589
+          },
+          {
+            "shopping_date": 89,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 77.18268552174206
+          },
+          {
+            "shopping_date": 90,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 77.79473264139821
+          },
+          {
+            "shopping_date": 91,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 78.40677976105438
+          },
+          {
+            "shopping_date": 92,
+            "stay_start_date": 99,
+            "stay_end_date": 99,
+            "max_price_per_night": 79.01882688071055
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "casual-006": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": -25,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 106.70484845241494
+          },
+          {
+            "shopping_date": -24,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 107.62300389911815
+          },
+          {
+            "shopping_date": -23,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 108.54115934582136
+          },
+          {
+            "shopping_date": -22,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 109.45931479252457
+          },
+          {
+            "shopping_date": -21,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 110.37747023922778
+          },
+          {
+            "shopping_date": -20,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 111.29562568593099
+          },
+          {
+            "shopping_date": -19,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 112.2137811326342
+          },
+          {
+            "shopping_date": -18,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 113.1319365793374
+          },
+          {
+            "shopping_date": -17,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 114.05009202604062
+          },
+          {
+            "shopping_date": -16,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 114.96824747274383
+          },
+          {
+            "shopping_date": -15,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 115.88640291944704
+          },
+          {
+            "shopping_date": -14,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 116.80455836615025
+          },
+          {
+            "shopping_date": -13,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 117.72271381285346
+          },
+          {
+            "shopping_date": -12,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 118.64086925955667
+          },
+          {
+            "shopping_date": -11,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 119.55902470625988
+          },
+          {
+            "shopping_date": -10,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 120.47718015296309
+          },
+          {
+            "shopping_date": -9,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 121.39533559966628
+          },
+          {
+            "shopping_date": -8,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 122.3134910463695
+          },
+          {
+            "shopping_date": -7,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 123.2316464930727
+          },
+          {
+            "shopping_date": -6,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 124.14980193977593
+          },
+          {
+            "shopping_date": -5,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 125.06795738647912
+          },
+          {
+            "shopping_date": -4,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 125.98611283318235
+          },
+          {
+            "shopping_date": -3,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 126.90426827988554
+          },
+          {
+            "shopping_date": -2,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 127.82242372658877
+          },
+          {
+            "shopping_date": -1,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 128.74057917329196
+          },
+          {
+            "shopping_date": 0,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 129.6587346199952
+          },
+          {
+            "shopping_date": 1,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 130.57689006669838
+          },
+          {
+            "shopping_date": 2,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 131.4950455134016
+          },
+          {
+            "shopping_date": 3,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 132.4132009601048
+          },
+          {
+            "shopping_date": 4,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 133.33135640680803
+          },
+          {
+            "shopping_date": 5,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 134.24951185351122
+          },
+          {
+            "shopping_date": 6,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 135.16766730021445
+          },
+          {
+            "shopping_date": 7,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 136.08582274691764
+          },
+          {
+            "shopping_date": 8,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 137.00397819362087
+          },
+          {
+            "shopping_date": 9,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 137.92213364032406
+          },
+          {
+            "shopping_date": 10,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 138.84028908702726
+          },
+          {
+            "shopping_date": 11,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 139.75844453373048
+          },
+          {
+            "shopping_date": 12,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 140.6765999804337
+          },
+          {
+            "shopping_date": 13,
+            "stay_start_date": 19,
+            "stay_end_date": 25,
+            "max_price_per_night": 141.5947554271369
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 31,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 54.609224285299646
+          },
+          {
+            "shopping_date": 32,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 56.89159778095423
+          },
+          {
+            "shopping_date": 33,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 59.17397127660882
+          },
+          {
+            "shopping_date": 34,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 61.4563447722634
+          },
+          {
+            "shopping_date": 35,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 63.73871826791799
+          },
+          {
+            "shopping_date": 36,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 66.02109176357257
+          },
+          {
+            "shopping_date": 37,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 68.30346525922715
+          },
+          {
+            "shopping_date": 38,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 70.58583875488173
+          },
+          {
+            "shopping_date": 39,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 72.86821225053633
+          },
+          {
+            "shopping_date": 40,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 75.15058574619091
+          },
+          {
+            "shopping_date": 41,
+            "stay_start_date": 51,
+            "stay_end_date": 61,
+            "max_price_per_night": 77.4329592418455
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "casual-007": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": 11,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 86.10875626653876
+          },
+          {
+            "shopping_date": 12,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 88.25605401096554
+          },
+          {
+            "shopping_date": 13,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 90.40335175539232
+          },
+          {
+            "shopping_date": 14,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 92.55064949981909
+          },
+          {
+            "shopping_date": 15,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 94.69794724424587
+          },
+          {
+            "shopping_date": 16,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 96.84524498867265
+          },
+          {
+            "shopping_date": 17,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 98.99254273309941
+          },
+          {
+            "shopping_date": 18,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 101.13984047752619
+          },
+          {
+            "shopping_date": 19,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 103.28713822195297
+          },
+          {
+            "shopping_date": 20,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 105.43443596637975
+          },
+          {
+            "shopping_date": 21,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 107.58173371080653
+          },
+          {
+            "shopping_date": 22,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 109.7290314552333
+          },
+          {
+            "shopping_date": 23,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 111.87632919966008
+          },
+          {
+            "shopping_date": 24,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 114.02362694408686
+          },
+          {
+            "shopping_date": 25,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 116.17092468851362
+          },
+          {
+            "shopping_date": 26,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 118.3182224329404
+          },
+          {
+            "shopping_date": 27,
+            "stay_start_date": 34,
+            "stay_end_date": 42,
+            "max_price_per_night": 120.46552017736718
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 68,
+            "stay_start_date": 79,
+            "stay_end_date": 83,
+            "max_price_per_night": 69.20706452758816
+          },
+          {
+            "shopping_date": 69,
+            "stay_start_date": 79,
+            "stay_end_date": 83,
+            "max_price_per_night": 81.08876768050888
+          },
+          {
+            "shopping_date": 70,
+            "stay_start_date": 79,
+            "stay_end_date": 83,
+            "max_price_per_night": 92.97047083342962
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "casual-008": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": -16,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 99.20743814870988
+          },
+          {
+            "shopping_date": -15,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 101.34521775338082
+          },
+          {
+            "shopping_date": -14,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 103.48299735805178
+          },
+          {
+            "shopping_date": -13,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 105.62077696272272
+          },
+          {
+            "shopping_date": -12,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 107.75855656739365
+          },
+          {
+            "shopping_date": -11,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 109.89633617206461
+          },
+          {
+            "shopping_date": -10,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 112.03411577673555
+          },
+          {
+            "shopping_date": -9,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 114.17189538140649
+          },
+          {
+            "shopping_date": -8,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 116.30967498607743
+          },
+          {
+            "shopping_date": -7,
+            "stay_start_date": 1,
+            "stay_end_date": 10,
+            "max_price_per_night": 118.44745459074838
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 22,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 69.88584206160797
+          },
+          {
+            "shopping_date": 23,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 70.73154533628473
+          },
+          {
+            "shopping_date": 24,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 71.57724861096149
+          },
+          {
+            "shopping_date": 25,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 72.42295188563824
+          },
+          {
+            "shopping_date": 26,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 73.268655160315
+          },
+          {
+            "shopping_date": 27,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 74.11435843499176
+          },
+          {
+            "shopping_date": 28,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 74.96006170966851
+          },
+          {
+            "shopping_date": 29,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 75.80576498434527
+          },
+          {
+            "shopping_date": 30,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 76.65146825902202
+          },
+          {
+            "shopping_date": 31,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 77.49717153369878
+          },
+          {
+            "shopping_date": 32,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 78.34287480837554
+          },
+          {
+            "shopping_date": 33,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 79.18857808305229
+          },
+          {
+            "shopping_date": 34,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 80.03428135772906
+          },
+          {
+            "shopping_date": 35,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 80.87998463240581
+          },
+          {
+            "shopping_date": 36,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 81.72568790708256
+          },
+          {
+            "shopping_date": 37,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 82.57139118175932
+          },
+          {
+            "shopping_date": 38,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 83.41709445643608
+          },
+          {
+            "shopping_date": 39,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 84.26279773111284
+          },
+          {
+            "shopping_date": 40,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 85.10850100578959
+          },
+          {
+            "shopping_date": 41,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 85.95420428046634
+          },
+          {
+            "shopping_date": 42,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 86.79990755514311
+          },
+          {
+            "shopping_date": 43,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 87.64561082981986
+          },
+          {
+            "shopping_date": 44,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 88.49131410449661
+          },
+          {
+            "shopping_date": 45,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 89.33701737917337
+          },
+          {
+            "shopping_date": 46,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 90.18272065385013
+          },
+          {
+            "shopping_date": 47,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 91.02842392852689
+          },
+          {
+            "shopping_date": 48,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 91.87412720320364
+          },
+          {
+            "shopping_date": 49,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 92.7198304778804
+          },
+          {
+            "shopping_date": 50,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 93.56553375255716
+          },
+          {
+            "shopping_date": 51,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 94.41123702723391
+          },
+          {
+            "shopping_date": 52,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 95.25694030191067
+          },
+          {
+            "shopping_date": 53,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 96.10264357658743
+          },
+          {
+            "shopping_date": 54,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 96.94834685126418
+          },
+          {
+            "shopping_date": 55,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 97.79405012594094
+          },
+          {
+            "shopping_date": 56,
+            "stay_start_date": 61,
+            "stay_end_date": 68,
+            "max_price_per_night": 98.63975340061769
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "business-001": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": 2,
+            "stay_start_date": 6,
+            "stay_end_date": 24,
+            "max_price_per_night": 146.4115496067289
+          },
+          {
+            "shopping_date": 3,
+            "stay_start_date": 6,
+            "stay_end_date": 24,
+            "max_price_per_night": 146.4115496067289
+          },
+          {
+            "shopping_date": 4,
+            "stay_start_date": 6,
+            "stay_end_date": 24,
+            "max_price_per_night": 146.4115496067289
+          },
+          {
+            "shopping_date": 5,
+            "stay_start_date": 6,
+            "stay_end_date": 24,
+            "max_price_per_night": 146.4115496067289
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 1,
+            "stay_start_date": 8,
+            "stay_end_date": 10,
+            "max_price_per_night": 160.25144295267373
+          },
+          {
+            "shopping_date": 2,
+            "stay_start_date": 8,
+            "stay_end_date": 10,
+            "max_price_per_night": 160.25144295267373
+          },
+          {
+            "shopping_date": 3,
+            "stay_start_date": 8,
+            "stay_end_date": 10,
+            "max_price_per_night": 160.25144295267373
+          },
+          {
+            "shopping_date": 4,
+            "stay_start_date": 8,
+            "stay_end_date": 10,
+            "max_price_per_night": 160.25144295267373
+          },
+          {
+            "shopping_date": 5,
+            "stay_start_date": 8,
+            "stay_end_date": 10,
+            "max_price_per_night": 160.25144295267373
+          },
+          {
+            "shopping_date": 6,
+            "stay_start_date": 8,
+            "stay_end_date": 10,
+            "max_price_per_night": 160.25144295267373
+          },
+          {
+            "shopping_date": 7,
+            "stay_start_date": 8,
+            "stay_end_date": 10,
+            "max_price_per_night": 160.25144295267373
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 2,
+        "demands": [
+          {
+            "shopping_date": 21,
+            "stay_start_date": 25,
+            "stay_end_date": 26,
+            "max_price_per_night": 154.74080545598298
+          },
+          {
+            "shopping_date": 22,
+            "stay_start_date": 25,
+            "stay_end_date": 26,
+            "max_price_per_night": 154.74080545598298
+          },
+          {
+            "shopping_date": 23,
+            "stay_start_date": 25,
+            "stay_end_date": 26,
+            "max_price_per_night": 154.74080545598298
+          },
+          {
+            "shopping_date": 24,
+            "stay_start_date": 25,
+            "stay_end_date": 26,
+            "max_price_per_night": 154.74080545598298
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 3,
+        "demands": [
+          {
+            "shopping_date": 69,
+            "stay_start_date": 73,
+            "stay_end_date": 75,
+            "max_price_per_night": 144.05509707462113
+          },
+          {
+            "shopping_date": 70,
+            "stay_start_date": 73,
+            "stay_end_date": 75,
+            "max_price_per_night": 144.05509707462113
+          },
+          {
+            "shopping_date": 71,
+            "stay_start_date": 73,
+            "stay_end_date": 75,
+            "max_price_per_night": 144.05509707462113
+          },
+          {
+            "shopping_date": 72,
+            "stay_start_date": 73,
+            "stay_end_date": 75,
+            "max_price_per_night": 144.05509707462113
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 4,
+        "demands": [
+          {
+            "shopping_date": 85,
+            "stay_start_date": 88,
+            "stay_end_date": 89,
+            "max_price_per_night": 148.31715450620516
+          },
+          {
+            "shopping_date": 86,
+            "stay_start_date": 88,
+            "stay_end_date": 89,
+            "max_price_per_night": 148.31715450620516
+          },
+          {
+            "shopping_date": 87,
+            "stay_start_date": 88,
+            "stay_end_date": 89,
+            "max_price_per_night": 148.31715450620516
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ],
+    "business-002": [
+      {
+        "trip_id": 0,
+        "demands": [
+          {
+            "shopping_date": 4,
+            "stay_start_date": 11,
+            "stay_end_date": 27,
+            "max_price_per_night": 151.2098880775197
+          },
+          {
+            "shopping_date": 5,
+            "stay_start_date": 11,
+            "stay_end_date": 27,
+            "max_price_per_night": 151.2098880775197
+          },
+          {
+            "shopping_date": 6,
+            "stay_start_date": 11,
+            "stay_end_date": 27,
+            "max_price_per_night": 151.2098880775197
+          },
+          {
+            "shopping_date": 7,
+            "stay_start_date": 11,
+            "stay_end_date": 27,
+            "max_price_per_night": 151.2098880775197
+          },
+          {
+            "shopping_date": 8,
+            "stay_start_date": 11,
+            "stay_end_date": 27,
+            "max_price_per_night": 151.2098880775197
+          },
+          {
+            "shopping_date": 9,
+            "stay_start_date": 11,
+            "stay_end_date": 27,
+            "max_price_per_night": 151.2098880775197
+          },
+          {
+            "shopping_date": 10,
+            "stay_start_date": 11,
+            "stay_end_date": 27,
+            "max_price_per_night": 151.2098880775197
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 1,
+        "demands": [
+          {
+            "shopping_date": 8,
+            "stay_start_date": 14,
+            "stay_end_date": 16,
+            "max_price_per_night": 152.27655183720447
+          },
+          {
+            "shopping_date": 9,
+            "stay_start_date": 14,
+            "stay_end_date": 16,
+            "max_price_per_night": 152.27655183720447
+          },
+          {
+            "shopping_date": 10,
+            "stay_start_date": 14,
+            "stay_end_date": 16,
+            "max_price_per_night": 152.27655183720447
+          },
+          {
+            "shopping_date": 11,
+            "stay_start_date": 14,
+            "stay_end_date": 16,
+            "max_price_per_night": 152.27655183720447
+          },
+          {
+            "shopping_date": 12,
+            "stay_start_date": 14,
+            "stay_end_date": 16,
+            "max_price_per_night": 152.27655183720447
+          },
+          {
+            "shopping_date": 13,
+            "stay_start_date": 14,
+            "stay_end_date": 16,
+            "max_price_per_night": 152.27655183720447
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 2,
+        "demands": [
+          {
+            "shopping_date": 58,
+            "stay_start_date": 61,
+            "stay_end_date": 62,
+            "max_price_per_night": 168.61977425963863
+          },
+          {
+            "shopping_date": 59,
+            "stay_start_date": 61,
+            "stay_end_date": 62,
+            "max_price_per_night": 168.61977425963863
+          },
+          {
+            "shopping_date": 60,
+            "stay_start_date": 61,
+            "stay_end_date": 62,
+            "max_price_per_night": 168.61977425963863
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 3,
+        "demands": [
+          {
+            "shopping_date": 64,
+            "stay_start_date": 69,
+            "stay_end_date": 70,
+            "max_price_per_night": 151.2744536596083
+          },
+          {
+            "shopping_date": 65,
+            "stay_start_date": 69,
+            "stay_end_date": 70,
+            "max_price_per_night": 151.2744536596083
+          },
+          {
+            "shopping_date": 66,
+            "stay_start_date": 69,
+            "stay_end_date": 70,
+            "max_price_per_night": 151.2744536596083
+          },
+          {
+            "shopping_date": 67,
+            "stay_start_date": 69,
+            "stay_end_date": 70,
+            "max_price_per_night": 151.2744536596083
+          },
+          {
+            "shopping_date": 68,
+            "stay_start_date": 69,
+            "stay_end_date": 70,
+            "max_price_per_night": 151.2744536596083
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      },
+      {
+        "trip_id": 4,
+        "demands": [
+          {
+            "shopping_date": 92,
+            "stay_start_date": 97,
+            "stay_end_date": 98,
+            "max_price_per_night": 150.98505637803737
+          },
+          {
+            "shopping_date": 93,
+            "stay_start_date": 97,
+            "stay_end_date": 98,
+            "max_price_per_night": 150.98505637803737
+          },
+          {
+            "shopping_date": 94,
+            "stay_start_date": 97,
+            "stay_end_date": 98,
+            "max_price_per_night": 150.98505637803737
+          },
+          {
+            "shopping_date": 95,
+            "stay_start_date": 97,
+            "stay_end_date": 98,
+            "max_price_per_night": 150.98505637803737
+          },
+          {
+            "shopping_date": 96,
+            "stay_start_date": 97,
+            "stay_end_date": 98,
+            "max_price_per_night": 150.98505637803737
+          }
+        ],
+        "is_booked": false,
+        "booked_price_per_night": null
+      }
+    ]
+  }
+}
