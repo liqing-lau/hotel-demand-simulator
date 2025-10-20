@@ -508,33 +508,33 @@
                     <label>Pricing Strategy</label>
                     <div class="strategy-options">
                         <div class="radio-group">
-                            <input type="radio" id="strategy-fixed" name="strategy" value="fixed" checked>
-                            <label for="strategy-fixed">Fixed Price</label>
-                        </div>
-                        <div class="radio-group">
-                            <input type="radio" id="strategy-availability" name="strategy" value="availability">
+                            <input type="radio" id="strategy-availability" name="strategy" value="availability" checked>
                             <label for="strategy-availability">Availability-Based</label>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Fixed Price Strategy -->
-                <div id="fixed-strategy" class="strategy-inputs">
-                    <div class="form-group">
-                        <label for="fixed-price">Price per Night ($)</label>
-                        <input type="number" id="fixed-price" value="100" min="10" max="500" step="5">
+                        <div class="radio-group">
+                            <input type="radio" id="strategy-fixed" name="strategy" value="fixed">
+                            <label for="strategy-fixed">Fixed Price</label>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Availability-Based Strategy -->
-                <div id="availability-strategy" class="strategy-inputs hidden">
+                <div id="availability-strategy" class="strategy-inputs">
                     <div class="form-group">
                         <label for="min-price">Minimum Price ($)</label>
-                        <input type="number" id="min-price" value="50" min="10" max="500" step="5">
+                        <input type="number" id="min-price" value="80" min="10" max="500" step="5">
                     </div>
                     <div class="form-group">
                         <label for="max-price">Maximum Price ($)</label>
-                        <input type="number" id="max-price" value="200" min="10" max="500" step="5">
+                        <input type="number" id="max-price" value="150" min="10" max="500" step="5">
+                    </div>
+                </div>
+
+                <!-- Fixed Price Strategy -->
+                <div id="fixed-strategy" class="strategy-inputs hidden">
+                    <div class="form-group">
+                        <label for="fixed-price">Price per Night ($)</label>
+                        <input type="number" id="fixed-price" value="100" min="10" max="500" step="5">
                     </div>
                 </div>
 
