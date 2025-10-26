@@ -43,8 +43,9 @@ pip install -r requirements.txt
 
 ### Quick Start - Web Interface
 
-1. Start the Flask web server:
+1. Run setup and start Flask web server:
 ```bash
+python setup.py
 python app.py
 ```
 
